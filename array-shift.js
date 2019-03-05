@@ -3,7 +3,7 @@ function panggilShiftA() {
   console.log(kota);
   console.log("==========");
 //  kota = kota.shift(); //isi kota menjadi nilai yang di shift kiri pada array
-var kota2 = kota.shift()
+var kota2 = kota.shift()//menghapus data paling depan
 console.log(kota2)
   return kota; //variable kota akan dihapus menggunakan shift
 }
